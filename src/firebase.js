@@ -25,10 +25,10 @@ import {
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FB_AUTH_KEY,
-  authDomain: 'fresher-a5113.firebaseapp.com',
-  projectId: 'fresher-a5113',
-  storageBucket: 'fresher-a5113.appspot.com',
-  messagingSenderId: '443136794867',
+  authDomain: "crelat-descentralized-shop.firebaseapp.com",
+  projectId: "crelat-descentralized-shop",
+  storageBucket: "crelat-descentralized-shop.appspot.com",
+  messagingSenderId: "1098562838335",
   appId: process.env.REACT_APP_FB_APP_ID,
 }
 

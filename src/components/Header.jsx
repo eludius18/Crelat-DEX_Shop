@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { setAlert, useGlobalState } from '../store'
 import { logout } from '../firebase'
 import { logOutWithCometChat } from '../cometChat'
-import { connectWallet } from '../shared/Freshers'
+import { connectWallet } from '../shared/crelat'
 import Navbar from '@material-tailwind/react/Navbar'
 import NavbarContainer from '@material-tailwind/react/NavbarContainer'
 import NavbarWrapper from '@material-tailwind/react/NavbarWrapper'
@@ -36,7 +36,7 @@ const Header = () => {
       <NavbarContainer>
         <NavbarWrapper>
           <Link to="/">
-            <NavbarBrand>Freshers</NavbarBrand>
+            <NavbarBrand>Crelat</NavbarBrand>
           </Link>
           <NavbarToggler
             color="white"

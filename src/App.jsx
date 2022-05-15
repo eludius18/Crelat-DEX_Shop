@@ -12,7 +12,7 @@ import AddProduct from './views/AddProduct'
 import Cart from './views/Cart'
 import Chat from './views/Chat'
 import ChatList from './views/ChatList'
-import { loadWeb3 } from './shared/Freshers'
+import { loadWeb3 } from './shared/crelat'
 
 function App() {
   const [user, setUser] = useState(null)

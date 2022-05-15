@@ -7,7 +7,7 @@ const fromWei = (num) => web3.utils.fromWei(num.toString())
 
 contract('Store', ([storeOwner, buyer, seller]) => {
   const feePercent = 10
-  const storeName = 'Freshers'
+  const storeName = 'Crelat'
 
   let store
 

@@ -4,7 +4,7 @@ import { useParams, useNavigate } from 'react-router-dom'
 import { Button, CardImage } from '@material-tailwind/react'
 import { getProduct, deleteProduct, auth } from '../firebase'
 import { setGlobalState, useGlobalState, setAlert } from '../store'
-import { payWithEthers } from '../shared/Freshers'
+import { payWithEthers } from '../shared/crelat'
 
 const Product = () => {
   const { id } = useParams()

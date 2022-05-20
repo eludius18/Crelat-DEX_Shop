@@ -24,13 +24,15 @@ import {
 } from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FB_AUTH_KEY,
+  apiKey: "AIzaSyCe-aXrAtVj_bRY4A5XUSqEC2ixDZAyTA4",
   authDomain: "crelat-descentralized-shop.firebaseapp.com",
   projectId: "crelat-descentralized-shop",
   storageBucket: "crelat-descentralized-shop.appspot.com",
   messagingSenderId: "1098562838335",
   appId: process.env.REACT_APP_FB_APP_ID,
-}
+  measurementId: "G-3YXXGTT2CP"
+};
+
 
 const app = initializeApp(firebaseConfig)
 const auth = getAuth(app)
